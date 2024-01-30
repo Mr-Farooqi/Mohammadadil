@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+    
+    Select Route :
+    
+        <label>
+            <input type="radio" name="route" value="route1" id="r1">route1
+        </label>
+        
+        <label>
+            <input type="radio" name="route" value="route2" id="r2">route2
+        </label>
+        
+        <label>
+            <input type="radio" name="route" value="route3" id="r3">route3
+        </label>
+        
+        <br>
+        <br>
+        <br>
+        Select Train :
+        
+        <select id="train">
+            <option value="select">Select</option>
+            <option value="train1">Train 1</option>
+            <option value="train2">Train 2</option>
+            <option value="train3">Train 3</option>
+        </select>
+        
+        <br>
+        <br>
+        <br>
+        
+        Select Your Seat :
+        
+        <br>
+        
+        <label>
+            <input type="radio" value="seat1" name="seat">Seat 1
+        </label>
+        
+        <br>
+        <label>
+            <input type="radio" value="seat2" name="seat">Seat 2
+        </label>
+        
+        <br>
+        
+        <label>
+            <input type="radio" value="seat3" name="seat">Seat 3
+        </label>
+        
+        <br>
+        <label>
+            <input type="radio" value="seat4" name="seat">Seat 4
+        </label>
+        
+        
+        <br>
+        <label>
+            <input type="radio" value="seat5" name="seat">Seat 5
+        </label>
+        
+        <br>
+        <br>
+        
+        Select Date :
+        <input type="date">
+        
+        
+        <br>
+        <br>
+        <input type="submit" value="Book Seat" onclick="bookseat()">
+        
+        
+        
+        <p>Route 1 = <span id="r1-count">0</span></p>
+        
+        
+        <p>Route 2 = <span id="r2-count">0</span></p>
+        
+        <p>Route 3 = <span id="r3-count">0</span></p>
+        
+        
+    </body>
+</html>
